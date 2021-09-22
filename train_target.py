@@ -96,10 +96,10 @@ if __name__ == '__main__':
     model.train()
 
     if args.dataset=="Domain2":
-        npfilename = './results/prototype/pseudolabel_D2.npz'
+        npfilename = './generate_pseudo/pseudolabel_D2.npz'
 
     elif args.dataset=="Domain1":
-        npfilename = './results/prototype/pseudolabel_D1.npz'
+        npfilename = './generate_pseudo/pseudolabel_D1.npz'
 
     npdata = np.load(npfilename, allow_pickle=True)
     pseudo_label_dic = npdata['arr_0'].item()
