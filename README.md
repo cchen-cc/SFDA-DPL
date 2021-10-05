@@ -9,7 +9,7 @@ Pytorch implementation of our source-free unsupervised domain adaptation method 
 </p>
 
 ## Installation
-* Install Pytorch 0.4.1 and CUDA 9.0
+* Install Pytorch 0.4.1 and CUDA 9.0 (Note that the results reported in the paper are obtained by running the code on this Pytorch version. As raised by the issue, using higher version of Pytorch may seem to have a performance decrease on optic cup segmentation.)
 * Clone this repo
 ```
 git clone https://github.com/cchen-cc/SFDA-DPL
