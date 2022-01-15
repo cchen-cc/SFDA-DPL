@@ -3,7 +3,7 @@
 Pytorch implementation of our source-free unsupervised domain adaptation method with denoised pseudo-labeling. <br/>
 
 ## Paper
-[Source-Free Domain Adaptive Fundus Image Segmentation with Denoised Pseudo-Labeling](https://github.com/cchen-cc/SFDA-DPL) MICCAI 2021
+[Source-Free Domain Adaptive Fundus Image Segmentation with Denoised Pseudo-Labeling](https://arxiv.org/pdf/2109.09735.pdf) MICCAI 2021
 <p align="center">
   <img src="figure/framework.png">
 </p>
